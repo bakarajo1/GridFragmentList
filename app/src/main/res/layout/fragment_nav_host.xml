@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".NavHostFragment">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="105dp"
+                android:layout_height="117dp"
+                android:onClick="onc3"
+                app:srcCompat="@drawable/android"
+                tools:srcCompat="@drawable/android" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="105dp"
+                android:layout_height="117dp"
+                android:onClick="onc4"
+                app:srcCompat="@drawable/android__2_"
+                tools:srcCompat="@drawable/android__2_" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="105dp"
+                android:layout_height="117dp"
+                android:onClick="onc5"
+                app:srcCompat="@drawable/android__3_"
+                tools:srcCompat="@drawable/android__3_" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="327dp">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="105dp"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/android__3_"
+                tools:srcCompat="@drawable/android__3_" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="105dp"
+                android:layout_height="117dp"
+
+                app:srcCompat="@drawable/android__2_"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="105dp"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/android__1_"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="105dp"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/android__2_"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="105dp"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/android__1_"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="105dp"
+                android:layout_height="117dp"
+                app:srcCompat="@drawable/android"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
